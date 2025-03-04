@@ -1,0 +1,1568 @@
+/* #ifndef APP-PLUS-NVUE */
+/* scroll-view */
+.scroll-row {
+    width: 100%;
+    white-space: nowrap;
+  }
+  
+  .scroll-row-item {
+    display: inline-block !important;
+  }
+  
+  .set-image {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* #endif */
+  /* 移动端补偿字体大小 */
+  :root {
+    --max-fontsize: 0px;
+  }
+  
+  /* 图标 */
+  .iconfont {
+    font-family: iconfont;
+  }
+  
+  /* 单行省略 */
+  .Pnowrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /*多行省略*/
+  .Pellipsis2 {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+  }
+  
+  .Pellipsis3 {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+  }
+  
+  .Pellipsis4 {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+  }
+  
+  .word-nowrap {
+    word-break: keep-all;
+  }
+  
+
+  .h-100p {
+    height: 100%;
+  }
+  
+  .W-H-100 {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .W-50 {
+    width: 50px;
+  }
+  
+  .W-100 {
+    width: 100px;
+  }
+  
+  .W-200 {
+    width: 200px;
+  }
+  
+  .W-300 {
+    width: 300px;
+  }
+  
+  .W-400 {
+    width: 400px;
+  }
+  
+  .W-500 {
+    width: 500px;
+  }
+  
+  .W-600 {
+    width: 600px;
+  }
+  
+  .W-600 {
+    width: 600px;
+  }
+  
+  .W-700 {
+    width: 600px;
+  }
+  
+  .H-50 {
+    height: 50px;
+  }
+  
+  .H-100 {
+    height: 100px;
+  }
+  
+  .H-200 {
+    height: 200px;
+  }
+  
+  .H-300 {
+    height: 300px;
+  }
+  
+  .H-400 {
+    height: 400px;
+  }
+  
+  .H-500 {
+    height: 500px;
+  }
+  
+  .H-600 {
+    height: 600px;
+  }
+  
+  .H-700 {
+    height: 700px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .col-12 {
+    width: 750px;
+  }
+  
+  .col-11 {
+    width: 687.5px;
+  }
+  
+  .col-10 {
+    width: 625px;
+  }
+  
+  .col-9 {
+    width: 562.5px;
+  }
+  
+  .col-8 {
+    width: 500px;
+  }
+  
+  .col-7 {
+    width: 437.5px;
+  }
+  
+  .col-6 {
+    width: 375px;
+  }
+  
+  .col-5 {
+    width: 312.5px;
+  }
+  
+  .col-4 {
+    width: 250px;
+  }
+  
+  .col-3 {
+    width: 187.5px;
+  }
+  
+  .col-2 {
+    width: 125px;
+  }
+  
+  .col-1 {
+    width: 62.5px;
+  }
+  
+  .col-offset-12 {
+    margin-left: 750px;
+  }
+  
+  .col-offset-11 {
+    margin-left: 687.5px;
+  }
+  
+  .col-offset-10 {
+    margin-left: 625px;
+  }
+  
+  .col-offset-9 {
+    margin-left: 562.5px;
+  }
+  
+  .col-offset-8 {
+    margin-left: 500px;
+  }
+  
+  .col-offset-7 {
+    margin-left: 437.5px;
+  }
+  
+  .col-offset-6 {
+    margin-left: 375px;
+  }
+  
+  .col-offset-5 {
+    margin-left: 312.5px;
+  }
+  
+  .col-offset-4 {
+    margin-left: 250px;
+  }
+  
+  .col-offset-3 {
+    margin-left: 187.5px;
+  }
+  
+  .col-offset-2 {
+    margin-left: 125px;
+  }
+  
+  .col-offset-1 {
+    margin-left: 62.5px;
+  }
+  
+  .col-offset-0 {
+    margin-left: 0;
+  }
+  
+  /* flex 布局 */
+  .flex {
+    /* #ifndef APP-PLUS-NVUE */
+    display: flex !important;
+    /* #endif */
+    flex-direction: row;
+  }
+  
+  .flex-row {
+    flex-direction: row !important;
+  }
+  
+  .flex-column {
+    flex-direction: column !important;
+  }
+  
+  .flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  
+  .flex-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+  
+  .flex-aligin {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flex-justify-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .flex-nowrap {
+    flex-wrap: nowrap;
+  }
+  
+  .flex-shrink {
+    flex-shrink: 0;
+  }
+  
+  .justify-start {
+    justify-content: flex-start;
+  }
+  
+  .justify-end {
+    justify-content: flex-end;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .justify-around {
+    justify-content: space-around;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .align-stretch {
+    align-items: stretch;
+  }
+  
+  .align-start {
+    align-items: flex-start;
+  }
+  
+  .align-end {
+    align-items: flex-end;
+  }
+  
+  /* #ifndef APP-PLUS-NVUE */
+  .content-start {
+    align-content: flex-start;
+  }
+  
+  .content-end {
+    align-content: flex-end;
+  }
+  
+  .content-center {
+    align-content: center;
+  }
+  
+  .content-between {
+    align-content: space-between;
+  }
+  
+  .content-around {
+    align-content: space-around;
+  }
+  
+  .content-stretch {
+    align-content: stretch;
+  }
+  
+  /* #endif */
+  .flex-1 {
+    flex: 1;
+  }
+  
+  .flex-2 {
+    flex: 2;
+  }
+  
+  .flex-3 {
+    flex: 3;
+  }
+  
+  .flex-4 {
+    flex: 4;
+  }
+  
+  .flex-5 {
+    flex: 5;
+  }
+  
+  /* #ifndef APP-PLUS-NVUE */
+  .flex-shrink {
+    flex-shrink: 0;
+  }
+  
+  /* #endif */
+  
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  /*  -- 内外边距 -- */
+  .m-0 {
+    margin: 0;
+  }
+  
+  /* #ifndef APP-PLUS-NVUE */
+  .m-auto {
+    margin: auto;
+  }
+  
+  /* #endif */
+  .m-1 {
+    margin: 10px;
+  }
+  
+  .m-2 {
+    margin: 20px;
+  }
+  
+  .m-3 {
+    margin: 30px;
+  }
+  
+  .m-4 {
+    margin: 40px;
+  }
+  
+  .m-5 {
+    margin: 50px;
+  }
+  
+  .mt-0 {
+    margin-top: 0;
+  }
+  
+  /* #ifndef APP-PLUS-NVUE */
+  .mt-auto {
+    margin-top: auto;
+  }
+  
+  /* #endif */
+  .mt-1 {
+    margin-top: 10px;
+  }
+  
+  .mt-2 {
+    margin-top: 20px;
+  }
+  
+  .mt-3 {
+    margin-top: 30px;
+  }
+  
+  .mt-4 {
+    margin-top: 40px;
+  }
+  
+  .mt-44 {
+    margin-top: 44px;
+  }
+  
+  .mt-5 {
+    margin-top: 50px;
+  }
+  
+  .mt-6 {
+    margin-top: 50px;
+  }
+  
+  .mt-52 {
+    margin-top: 52px;
+  }
+  
+  .mb-0 {
+    margin-bottom: 0;
+  }
+  
+  /* #ifndef APP-PLUS-NVUE */
+  .mb-auto {
+    margin-bottom: auto;
+  }
+  
+  /* #endif */
+  .mb-1 {
+    margin-bottom: 10px;
+  }
+  
+  .mb-2 {
+    margin-bottom: 20px;
+  }
+  
+  .mb-2-4 {
+    margin-bottom: 24px;
+  }
+  
+  .mb-3 {
+    margin-bottom: 30px;
+  }
+  
+  .mb-4 {
+    margin-bottom: 40px;
+  }
+  
+  .mb-5 {
+    margin-bottom: 50px;
+  }
+  
+  .ml-0 {
+    margin-left: 0;
+  }
+  
+  /* #ifndef APP-PLUS-NVUE */
+  .ml-auto {
+    margin-left: auto;
+  }
+  
+  /* #endif */
+  .ml-1 {
+    margin-left: 10px;
+  }
+  
+  .ml-2 {
+    margin-left: 20px;
+  }
+  
+  .ml-3 {
+    margin-left: 30px;
+  }
+  
+  .ml-4 {
+    margin-left: 40px;
+  }
+  
+  .ml-5 {
+    margin-left: 50px;
+  }
+  
+  .ml-6 {
+    margin-left: 60px;
+  }
+  
+  .ml-7 {
+    margin-left: 70px;
+  }
+  
+  .ml-8 {
+    margin-left: 80px;
+  }
+  
+  .mr-0 {
+    margin-right: 0;
+  }
+  
+  /* #ifndef APP-PLUS-NVUE */
+  .mr-auto {
+    margin-right: auto;
+  }
+  
+  /* #endif */
+  .mr-1 {
+    margin-right: 10px;
+  }
+  
+  .mr-2 {
+    margin-right: 20px;
+  }
+  
+  .mr-3 {
+    margin-right: 30px;
+  }
+  
+  .mr-4 {
+    margin-right: 40px;
+  }
+  
+  .mr-5 {
+    margin-right: 50px;
+  }
+  
+  .mr-6 {
+    margin-right: 60px;
+  }
+  
+  .mr-7 {
+    margin-right: 70px;
+  }
+  
+  .mr-8 {
+    margin-right: 70px;
+  }
+  
+  .my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  /* #ifndef APP-PLUS-NVUE */
+  .my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  /* #endif */
+  .my-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .my-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .my-3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .my-4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .my-5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  /* #ifndef APP-PLUS-NVUE */
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* #endif */
+  .mx-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .mx-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .mx-3 {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .mx-4 {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .mx-5 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .p-0 {
+    padding: 0;
+  }
+  
+  .p {
+    padding: 5px;
+  }
+  
+  .p-1 {
+    padding: 10px;
+  }
+  
+  .p-2 {
+    padding: 20px;
+  }
+  
+  .p-3 {
+    padding: 30px;
+  }
+  
+  .p-4 {
+    padding: 40px;
+  }
+  
+  .p-5 {
+    padding: 50px;
+  }
+  
+  .pt-0 {
+    padding-top: 0;
+  }
+  
+  .pt {
+    padding-top: 5px;
+  }
+  
+  .pt-1 {
+    padding-top: 10px;
+  }
+  
+  .pt-2 {
+    padding-top: 20px;
+  }
+  
+  .pt-3 {
+    padding-top: 30px;
+  }
+  
+  .pt-4 {
+    padding-top: 40px;
+  }
+  
+  .pt-5 {
+    padding-top: 50px;
+  }
+  
+  .pt-52 {
+    padding-top: 52px;
+  }
+  
+  .pt-6 {
+    padding-top: 60px;
+  }
+  
+  .pb-0 {
+    padding-bottom: 0;
+  }
+  
+  .pb-1 {
+    padding-bottom: 10px;
+  }
+  
+  .pb {
+    padding-bottom: 5px;
+  }
+  
+  .pb-2 {
+    padding-bottom: 20px;
+  }
+  
+  .pb-3 {
+    padding-bottom: 30px;
+  }
+  
+  .pb-4 {
+    padding-bottom: 40px;
+  }
+  
+  .pb-5 {
+    padding-bottom: 50px;
+  }
+  
+  .pb-6 {
+    padding-bottom: 60px;
+  }
+  
+  .pl-0 {
+    padding-left: 0;
+  }
+  
+  .pl {
+    padding-left: 5px;
+  }
+  
+  .pl-1 {
+    padding-left: 10px;
+  }
+  
+  .pl-2 {
+    padding-left: 20px;
+  }
+  
+  .pl-3 {
+    padding-left: 30px;
+  }
+  
+  .pl-4 {
+    padding-left: 40px;
+  }
+  
+  .pl-5 {
+    padding-left: 50px;
+  }
+  
+  .pl-6 {
+    padding-left: 60px;
+  }
+  
+  .pl-7 {
+    padding-left: 70px;
+  }
+  
+  .pl-8 {
+    padding-left: 80px;
+  }
+  
+  .pr-0 {
+    padding-right: 0;
+  }
+  
+  .pr-1 {
+    padding-right: 10px;
+  }
+  
+  .pr-2 {
+    padding-right: 20px;
+  }
+  
+  .pr-3 {
+    padding-right: 30px;
+  }
+  
+  .pr-4 {
+    padding-right: 40px;
+  }
+  
+  .pr-5 {
+    padding-right: 50px;
+  }
+  
+  .pr-6 {
+    padding-right: 60px;
+  }
+  
+  .py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .py {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .py-1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .py-2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .py-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .py-4 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .py-5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .px-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .px {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .px-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .px-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .px-4 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .px-5 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  /* 文字大小 */
+  .font-18 {
+    font-size: calc(18px + var(--max-fontsize)) !important;
+  }
+  
+  .font-20 {
+    font-size: 20px;
+  }
+  
+  .font-24 {
+    font-size: 24px;
+  }
+  
+  .font-28 {
+    font-size: calc(28px + var(--max-fontsize));
+  }
+  
+  .font-32 {
+    font-size: calc(32px + var(--max-fontsize));
+  }
+  
+  .font-36 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  
+  .font-26 {
+    font-size: 26px;
+  }
+  
+  .font-40 {
+    font-size: calc(40px + var(--max-fontsize));
+  }
+  
+  .font-48 {
+    font-size: calc(48px + var(--max-fontsize));
+  }
+  
+  .h1 {
+    font-size: 80px;
+    line-height: 1.8;
+  }
+  
+  .h2 {
+    font-size: 60px;
+    line-height: 1.8;
+  }
+  
+  .h3 {
+    font-size: 45px;
+    line-height: 1.8;
+  }
+  
+  .h4 {
+    font-size: 32px;
+    line-height: 1.8;
+  }
+  
+  .h5 {
+    font-size: 30px;
+    line-height: 1.8;
+  }
+  
+  .h6 {
+    font-size: 28px;
+    line-height: 1.8;
+  }
+  
+  .l-h-66 {
+    line-height: 60px;
+  }
+  
+  /* 文字缩进 */
+  /* #ifndef APP-PLUS-NVUE */
+  .text-indent {
+    text-indent: 2;
+  }
+  
+  /* #endif */
+  /* 文字划线 */
+  .text-through {
+    text-decoration: line-through;
+  }
+  
+  /* 文字对齐 */
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* 文字换行溢出处理 */
+  .text-ellipsis {
+    /* #ifndef APP-PLUS-NVUE */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* #endif */
+    /* #ifdef APP-PLUS-NVUE */
+    lines: 1;
+    text-overflow: ellipsis;
+    /* #endif */
+  }
+  
+  .text-ellipsisPlus {
+    /* #ifndef APP-NVUE */
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* #endif */
+  }
+  
+  .text-ellipsisPlusTows {
+    /* #ifndef APP-NVUE */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    /* #endif */
+  }
+  
+  /* 文字粗细和斜体 */
+  .font-weight-light {
+    font-weight: 300;
+  }
+  
+  /*细*/
+  .font-weight-lighter {
+    font-weight: 100;
+  }
+  
+  /*更细*/
+  .font-weight-normal {
+    font-weight: 400;
+  }
+  
+  /*正常*/
+  .font-weight-bold {
+    font-weight: 700;
+  }
+  
+  .font-weight-bold-normal {
+    font-weight: 601;
+  }
+  
+  /*粗*/
+  .font-weight-bolder {
+    font-weight: bold;
+  }
+  
+  /*更粗*/
+  .font-italic {
+    font-style: italic;
+  }
+  
+  /*斜体*/
+  /* 文字颜色 */
+  .text-white {
+    color: #ffffff !important;
+  }
+  
+  .text-primary {
+    color: #2b2b2b !important;
+  }
+  
+  .text-hover-primary {
+    color: #0056b3;
+  }
+  
+  .text-secondary {
+    color: #6c757d;
+  }
+  
+  .text-hover-secondary {
+    color: #494f54;
+  }
+  
+  .text-success {
+    color: #28a745;
+  }
+  
+  .text-hover-success {
+    color: #19692c;
+  }
+  
+  .text-info {
+    color: #c9c9c9;
+  }
+  
+  .text-black {
+    color: #000000;
+  }
+  
+  .text-hover-info {
+    color: #999999;
+  }
+  
+  .text-warning {
+    color: #ff8a0d;
+  }
+  
+  .text-hover-warning {
+    color: #ba8b00;
+  }
+  
+  .text-danger {
+    color: #f22525;
+  }
+  
+  .text-hover-danger {
+    color: #a71d2a;
+  }
+  
+  .text-light {
+    color: #7cc0f5;
+  }
+  
+  .text-hover-light {
+    color: #cbd3da;
+  }
+  
+  .text-dark {
+    color: #2b2b2b !important;
+  }
+  
+  .text-hover-dark {
+    color: #121416;
+  }
+  
+  .text-body {
+    color: #999999;
+  }
+  
+  .text-muted {
+    color: #2d94e7;
+  }
+  
+  /* 浅灰色 */
+  .text-light-muted {
+    color: #a9a5a0;
+  }
+  
+  .text-light-black {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .text-light-white {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .text-pla-color {
+    color: #999999 !important;
+  }
+  
+  /* 背景颜色 */
+  .bg-primary {
+    background-color: #f92323;
+  }
+  
+  .bg-hover-primary:hover {
+    background-color: #ffe7e5;
+  }
+  
+  .bg-secondary {
+    background-color: #ffe6e7;
+  }
+  
+  .bg-hover-secondary:hover {
+    background-color: #545b62;
+  }
+  
+  .bg-success {
+    background-color: #28a745;
+  }
+  
+  .bg-hover-success {
+    background-color: #1e7e34;
+  }
+  
+  .bg-info {
+    background-color: #f5f5f5;
+  }
+  
+  .bg-hover-info {
+    background-color: #117a8b;
+  }
+  
+  .bg-warning {
+    background-color: #ffc107;
+  }
+  
+  .bg-hover-warning {
+    background-color: #d39e00;
+  }
+  
+  .bg-f5 {
+    background-color: #f5f5f5;
+  }
+  
+  .bj-f5f7fa {
+    background-color: #f5f7fa;
+  }
+  
+  .bg-danger {
+    background-color: #dc3545;
+  }
+  
+  .bg-hover-danger {
+    background-color: #bd2130;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa;
+  }
+  
+  .bg-hover-light {
+    background-color: #dae0e5;
+  }
+  
+  .bg-dark {
+    background-color: #343a40;
+  }
+  
+  .bg-hover-dark {
+    background-color: #1d2124;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .bg-grid {
+    background-color: #f7f8fa;
+  }
+  
+  .bg-transparent {
+    background-color: transparent;
+  }
+  
+  .bg-Gradual {
+    /* #ifndef APP-NVUE */
+    background: linear-gradient(to bottom, #f7ead6 0, #ecc684 100%);
+    /* #endif */
+    /* #ifdef APP-NVUE */
+    background-image: linear-gradient(to top, #00af5d, #23cc7d);
+    /* #endif */
+  }
+  
+  /* 边框 */
+  .border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #999;
+  }
+  
+  .border-primary {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #05b362;
+  }
+  
+  .border-top {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #dee2e6;
+  }
+  
+  .border-right {
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #dee2e6;
+  }
+  
+  .border-bottom {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dee2e6;
+  }
+  
+  .border-left {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #dee2e6;
+  }
+  
+  .border-0 {
+    border-width: 0 !important;
+  }
+  
+  .border-top-0 {
+    border-top-width: 0 !important;
+  }
+  
+  .border-right-0 {
+    border-right-width: 0 !important;
+  }
+  
+  .border-bottom-0 {
+    border-bottom-width: 0 !important;
+  }
+  
+  .border-left-0 {
+    border-left-width: 0 !important;
+  }
+  
+  .border-primary {
+    border-color: #05b362;
+  }
+  
+  .border-secondary {
+    border-color: #6c757d;
+  }
+  
+  .border-light-secondary {
+    border-color: #e9e8e5;
+  }
+  
+  .border-success {
+    border-color: #28a745;
+  }
+  
+  .border-info {
+    border-color: #17a2b8;
+  }
+  
+  .border-warning {
+    border-color: #ffc107;
+  }
+  
+  .border-danger {
+    border-color: #dc3545;
+  }
+  
+  .border-light {
+    border-color: #f8f9fa;
+  }
+  
+  .border-dark {
+    border-color: #343a40;
+  }
+  
+  .border-white {
+    border-color: #ffffff;
+  }
+  
+  .box_SIZE {
+    box-sizing: border-box;
+  }
+  
+  /* 圆角 */
+  .rounded {
+    border-radius: 20px;
+  }
+  
+  .rounded-lg {
+    border-radius: 10px;
+  }
+  
+  .rounded-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .rounded-top-lg {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+  }
+  
+  .rounded-right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .rounded-bottom {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .rounded-bottom-lg {
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+  }
+  
+  .rounded-left {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .rounded-circle {
+    border-radius: 20px;
+  }
+  
+  .rounded-0 {
+    border-radius: 0;
+  }
+  
+  .rounded-50 {
+    border-radius: 50px;
+  }
+  
+  /* 显示 */
+  /* #ifndef APP-PLUS-NVUE */
+  .d-none {
+    display: none;
+  }
+  
+  .d-inline-block {
+    display: inline-block;
+  }
+  
+  .d-block {
+    display: block;
+  }
+  
+  /* #endif */
+  /* 内容溢出 */
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  /* 定位 */
+  .position-relative {
+    position: relative;
+  }
+  
+  .position-absolute {
+    position: absolute;
+  }
+  
+  .position-fixed {
+    position: fixed;
+  }
+  
+  /* 定位 - 固定顶部 */
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+  /* 定位 - 固定底部 */
+  .fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+  .top-0 {
+    top: 0;
+  }
+  
+  .left-0 {
+    left: 0;
+  }
+  
+  .right-0 {
+    right: 0;
+  }
+  
+  .bottom-0 {
+    bottom: 0;
+  }
+  
+  .top-1 {
+    top: 10upx;
+  }
+  
+  .left-1 {
+    left: 10upx;
+  }
+  
+  .right-1 {
+    right: 10upx;
+  }
+  
+  .bottom-1 {
+    bottom: 10upx;
+  }
+  
+  .bottom-2 {
+    bottom: 20upx;
+  }
+  
+  .bottom-4 {
+    bottom: 40upx;
+  }
+  
+  /* 阴影 */
+  /* #ifndef APP-PLUS-NVUE */
+  .shadow {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .shadow-lg {
+    box-shadow: 0px 40px 100px 0px rgba(0, 0, 0, 0.175);
+  }
+  
+  .shadow-none {
+    box-shadow: none !important;
+  }
+  
+  /* #endif */
+  .mask {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+  
+  /* html {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  } */
+  
+  .p-lr-2-4 {
+    padding: 0 24px;
+  }
+  
+  .p-t-2-4 {
+    padding-top: 24px;
+  }
+  
+  .p-l-2-4 {
+    padding-left: 24px;
+  }
+  
+  .p-b-2-4 {
+    padding-bottom: 24px;
+  }
+  
+  .flex-align {
+    display: flex;
+    align-items: center;
+  }
+  

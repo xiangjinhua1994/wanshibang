@@ -1,0 +1,21 @@
+{
+    "name": "Chen-HelloWorld",
+    "id": "Chen-HelloWorld",
+    "version": "1.0.0",
+    "description": "PictureView",
+    "_dp_type": "nativeplugin",
+    "_dp_nativeplugin": {
+        "android": {
+            "hooksClass": "",
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "Chen-HelloWorld",
+                    "class": "com.example.helloworld.HelloWorld"
+                }
+            ],
+            "integrateType": "aar",
+            "abis": []
+        }
+    }
+}

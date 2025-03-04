@@ -1,0 +1,1532 @@
+{
+  "list": [
+      {
+          "en": "China",
+          "flag": "../../static/flag/cn.png",
+          "name": "中国",
+          "shortName": "CN",
+          "showName": "中国 +86",
+          "tel": "86"
+      },
+      {
+        "en": "Hongkong",
+        "flag": "../../static/flag/hk.png",
+        "name": "香港(中国)",
+        "shortName": "HK",
+        "showName": "香港(中国) +852",
+        "tel": "852"
+      },
+      {
+        "en": "Taiwan",
+        "flag": "../../static/flag/tw.png",
+        "name": "台湾（中国）",
+        "shortName": "TW",
+        "showName": "台湾（中国） +886",
+        "tel": "886"
+      },
+      {
+          "en": "Andorra",
+          "flag": "../../static/flag/ad.png",
+          "name": "安道尔共和国",
+          "shortName": "AD",
+          "showName": "安道尔共和国 +376",
+          "tel": "376"
+      },
+      {
+          "en": "UnitedArabEmirates",
+          "flag": "../../static/flag/ae.png",
+          "name": "阿拉伯联合酋长国",
+          "shortName": "AE",
+          "showName": "阿拉伯联合酋长国 +971",
+          "tel": "971"
+      },
+      {
+          "en": "Afghanistan",
+          "flag": "../../static/flag/af.png",
+          "name": "阿富汗",
+          "shortName": "AF",
+          "showName": "阿富汗 +93",
+          "tel": "93"
+      },
+      {
+          "en": "AntiguaandBarbuda",
+          "flag": "../../static/flag/ag.png",
+          "name": "安提瓜和巴布达",
+          "shortName": "AG",
+          "showName": "安提瓜和巴布达 +1268",
+          "tel": "1268"
+      },
+      {
+          "en": "Anguilla",
+          "flag": "../../static/flag/ai.png",
+          "name": "安圭拉岛",
+          "shortName": "AI",
+          "showName": "安圭拉岛 +1264",
+          "tel": "1264"
+      },
+      {
+          "en": "Albania",
+          "flag": "../../static/flag/al.png",
+          "name": "阿尔巴尼亚",
+          "shortName": "AL",
+          "showName": "阿尔巴尼亚 +355",
+          "tel": "355"
+      },
+      {
+          "en": "Armenia",
+          "flag": "../../static/flag/am.png",
+          "name": "阿美尼亚",
+          "shortName": "AM",
+          "showName": "阿美尼亚 +374",
+          "tel": "374"
+      },
+      {
+          "en": "Ascension",
+          "flag": "../../static/flag/sh.png",
+          "name": "阿森松",
+          "shortName": "SH",
+          "showName": "阿森松 +247",
+          "tel": "247"
+      },
+      {
+          "en": "Angola",
+          "flag": "../../static/flag/ao.png",
+          "name": "安哥拉",
+          "shortName": "AO",
+          "showName": "安哥拉 +244",
+          "tel": "244"
+      },
+      {
+          "en": "Argentina",
+          "flag": "../../static/flag/ar.png",
+          "name": "阿根廷",
+          "shortName": "AR",
+          "showName": "阿根廷 +54",
+          "tel": "54"
+      },
+      {
+          "en": "Austria",
+          "flag": "../../static/flag/at.png",
+          "name": "奥地利",
+          "shortName": "AT",
+          "showName": "奥地利 +43",
+          "tel": "43"
+      },
+      {
+          "en": "Australia",
+          "flag": "../../static/flag/au.png",
+          "name": "澳大利亚",
+          "shortName": "AU",
+          "showName": "澳大利亚 +61",
+          "tel": "61"
+      },
+      {
+          "en": "Azerbaijan",
+          "flag": "../../static/flag/az.png",
+          "name": "阿塞拜疆",
+          "shortName": "AZ",
+          "showName": "阿塞拜疆 +994",
+          "tel": "994"
+      },
+      {
+          "en": "Barbados",
+          "flag": "../../static/flag/bb.png",
+          "name": "巴巴多斯",
+          "shortName": "BB",
+          "showName": "巴巴多斯 +1246",
+          "tel": "1246"
+      },
+      {
+          "en": "Bangladesh",
+          "flag": "../../static/flag/bd.png",
+          "name": "孟加拉国",
+          "shortName": "BD",
+          "showName": "孟加拉国 +880",
+          "tel": "880"
+      },
+      {
+          "en": "Belgium",
+          "flag": "../../static/flag/be.png",
+          "name": "比利时",
+          "shortName": "BE",
+          "showName": "比利时 +32",
+          "tel": "32"
+      },
+      {
+          "en": "Burkina-faso",
+          "flag": "../../static/flag/bf.png",
+          "name": "布基纳法索",
+          "shortName": "BF",
+          "showName": "布基纳法索 +226",
+          "tel": "226"
+      },
+      {
+          "en": "Bulgaria",
+          "flag": "../../static/flag/bg.png",
+          "name": "保加利亚",
+          "shortName": "BG",
+          "showName": "保加利亚 +359",
+          "tel": "359"
+      },
+      {
+          "en": "Bahrain",
+          "flag": "../../static/flag/bh.png",
+          "name": "巴林",
+          "shortName": "BH",
+          "showName": "巴林 +973",
+          "tel": "973"
+      },
+      {
+          "en": "Burundi",
+          "flag": "../../static/flag/bi.png",
+          "name": "布隆迪",
+          "shortName": "BI",
+          "showName": "布隆迪 +257",
+          "tel": "257"
+      },
+      {
+          "en": "Benin",
+          "flag": "../../static/flag/bj.png",
+          "name": "贝宁",
+          "shortName": "BJ",
+          "showName": "贝宁 +229",
+          "tel": "229"
+      },
+      {
+          "en": "Palestine",
+          "flag": "../../static/flag/bl.png",
+          "name": "巴勒斯坦",
+          "shortName": "BL",
+          "showName": "巴勒斯坦 +970",
+          "tel": "970"
+      },
+      {
+          "en": "BermudaIs.",
+          "flag": "../../static/flag/bm.png",
+          "name": "百慕大群岛",
+          "shortName": "BM",
+          "showName": "百慕大群岛 +1441",
+          "tel": "1441"
+      },
+      {
+          "en": "Brunei",
+          "flag": "../../static/flag/bn.png",
+          "name": "文莱",
+          "shortName": "BN",
+          "showName": "文莱 +673",
+          "tel": "673"
+      },
+      {
+          "en": "Bolivia",
+          "flag": "../../static/flag/bo.png",
+          "name": "玻利维亚",
+          "shortName": "BO",
+          "showName": "玻利维亚 +591",
+          "tel": "591"
+      },
+      {
+          "en": "Brazil",
+          "flag": "../../static/flag/br.png",
+          "name": "巴西",
+          "shortName": "BR",
+          "showName": "巴西 +55",
+          "tel": "55"
+      },
+      {
+          "en": "Bahamas",
+          "flag": "../../static/flag/bs.png",
+          "name": "巴哈马",
+          "shortName": "BS",
+          "showName": "巴哈马 +1242",
+          "tel": "1242"
+      },
+      {
+          "en": "Botswana",
+          "flag": "../../static/flag/bw.png",
+          "name": "博茨瓦纳",
+          "shortName": "BW",
+          "showName": "博茨瓦纳 +267",
+          "tel": "267"
+      },
+      {
+          "en": "Belarus",
+          "flag": "../../static/flag/by.png",
+          "name": "白俄罗斯",
+          "shortName": "BY",
+          "showName": "白俄罗斯 +375",
+          "tel": "375"
+      },
+      {
+          "en": "Belize",
+          "flag": "../../static/flag/bz.png",
+          "name": "伯利兹",
+          "shortName": "BZ",
+          "showName": "伯利兹 +501",
+          "tel": "501"
+      },
+      {
+          "en": "Canada",
+          "flag": "../../static/flag/ca.png",
+          "name": "加拿大",
+          "shortName": "CA",
+          "showName": "加拿大 +1",
+          "tel": "1"
+      },
+      {
+          "en": "CaymanIs.",
+          "flag": "../../static/flag/.png",
+          "name": "开曼群岛",
+          "shortName": "",
+          "showName": "开曼群岛 +1345",
+          "tel": "1345"
+      },
+      {
+          "en": "CentralAfricanRepublic",
+          "flag": "../../static/flag/cf.png",
+          "name": "中非共和国",
+          "shortName": "CF",
+          "showName": "中非共和国 +236",
+          "tel": "236"
+      },
+      {
+          "en": "Congo",
+          "flag": "../../static/flag/cg.png",
+          "name": "刚果",
+          "shortName": "CG",
+          "showName": "刚果 +242",
+          "tel": "242"
+      },
+      {
+          "en": "Switzerland",
+          "flag": "../../static/flag/ch.png",
+          "name": "瑞士",
+          "shortName": "CH",
+          "showName": "瑞士 +41",
+          "tel": "41"
+      },
+      {
+          "en": "CookIs.",
+          "flag": "../../static/flag/ck.png",
+          "name": "库克群岛",
+          "shortName": "CK",
+          "showName": "库克群岛 +682",
+          "tel": "682"
+      },
+      {
+          "en": "Chile",
+          "flag": "../../static/flag/cl.png",
+          "name": "智利",
+          "shortName": "CL",
+          "showName": "智利 +56",
+          "tel": "56"
+      },
+      {
+          "en": "Cameroon",
+          "flag": "../../static/flag/cm.png",
+          "name": "喀麦隆",
+          "shortName": "CM",
+          "showName": "喀麦隆 +237",
+          "tel": "237"
+      },
+      {
+          "en": "Colombia",
+          "flag": "../../static/flag/co.png",
+          "name": "哥伦比亚",
+          "shortName": "CO",
+          "showName": "哥伦比亚 +57",
+          "tel": "57"
+      },
+      {
+          "en": "CostaRica",
+          "flag": "../../static/flag/cr.png",
+          "name": "哥斯达黎加",
+          "shortName": "CR",
+          "showName": "哥斯达黎加 +506",
+          "tel": "506"
+      },
+      {
+          "en": "Cuba",
+          "flag": "../../static/flag/cu.png",
+          "name": "古巴",
+          "shortName": "CU",
+          "showName": "古巴 +53",
+          "tel": "53"
+      },
+      {
+          "en": "Cyprus",
+          "flag": "../../static/flag/cy.png",
+          "name": "塞浦路斯",
+          "shortName": "CY",
+          "showName": "塞浦路斯 +357",
+          "tel": "357"
+      },
+      {
+          "en": "CzechRepublic",
+          "flag": "../../static/flag/cz.png",
+          "name": "捷克",
+          "shortName": "CZ",
+          "showName": "捷克 +420",
+          "tel": "420"
+      },
+      {
+          "en": "Germany",
+          "flag": "../../static/flag/de.png",
+          "name": "德国",
+          "shortName": "DE",
+          "showName": "德国 +49",
+          "tel": "49"
+      },
+      {
+          "en": "Djibouti",
+          "flag": "../../static/flag/dj.png",
+          "name": "吉布提",
+          "shortName": "DJ",
+          "showName": "吉布提 +253",
+          "tel": "253"
+      },
+      {
+          "en": "Denmark",
+          "flag": "../../static/flag/dk.png",
+          "name": "丹麦",
+          "shortName": "DK",
+          "showName": "丹麦 +45",
+          "tel": "45"
+      },
+      {
+          "en": "DominicaRep.",
+          "flag": "../../static/flag/do.png",
+          "name": "多米尼加共和国",
+          "shortName": "DO",
+          "showName": "多米尼加共和国 +1890",
+          "tel": "1890"
+      },
+      {
+          "en": "Algeria",
+          "flag": "../../static/flag/dz.png",
+          "name": "阿尔及利亚",
+          "shortName": "DZ",
+          "showName": "阿尔及利亚 +213",
+          "tel": "213"
+      },
+      {
+          "en": "Ecuador",
+          "flag": "../../static/flag/ec.png",
+          "name": "厄瓜多尔",
+          "shortName": "EC",
+          "showName": "厄瓜多尔 +593",
+          "tel": "593"
+      },
+      {
+          "en": "Estonia",
+          "flag": "../../static/flag/ee.png",
+          "name": "爱沙尼亚",
+          "shortName": "EE",
+          "showName": "爱沙尼亚 +372",
+          "tel": "372"
+      },
+      {
+          "en": "Egypt",
+          "flag": "../../static/flag/eg.png",
+          "name": "埃及",
+          "shortName": "EG",
+          "showName": "埃及 +20",
+          "tel": "20"
+      },
+      {
+          "en": "Spain",
+          "flag": "../../static/flag/es.png",
+          "name": "西班牙",
+          "shortName": "ES",
+          "showName": "西班牙 +34",
+          "tel": "34"
+      },
+      {
+          "en": "Ethiopia",
+          "flag": "../../static/flag/et.png",
+          "name": "埃塞俄比亚",
+          "shortName": "ET",
+          "showName": "埃塞俄比亚 +251",
+          "tel": "251"
+      },
+      {
+          "en": "Finland",
+          "flag": "../../static/flag/fi.png",
+          "name": "芬兰",
+          "shortName": "FI",
+          "showName": "芬兰 +358",
+          "tel": "358"
+      },
+      {
+          "en": "Fiji",
+          "flag": "../../static/flag/fj.png",
+          "name": "斐济",
+          "shortName": "FJ",
+          "showName": "斐济 +679",
+          "tel": "679"
+      },
+      {
+          "en": "France",
+          "flag": "../../static/flag/fr.png",
+          "name": "法国",
+          "shortName": "FR",
+          "showName": "法国 +33",
+          "tel": "33"
+      },
+      {
+          "en": "Gabon",
+          "flag": "../../static/flag/ga.png",
+          "name": "加蓬",
+          "shortName": "GA",
+          "showName": "加蓬 +241",
+          "tel": "241"
+      },
+      {
+          "en": "UnitedKiongdom",
+          "flag": "../../static/flag/gb.png",
+          "name": "英国",
+          "shortName": "GB",
+          "showName": "英国 +44",
+          "tel": "44"
+      },
+      {
+          "en": "Grenada",
+          "flag": "../../static/flag/gd.png",
+          "name": "格林纳达",
+          "shortName": "GD",
+          "showName": "格林纳达 +1809",
+          "tel": "1809"
+      },
+      {
+          "en": "Georgia",
+          "flag": "../../static/flag/ge.png",
+          "name": "格鲁吉亚",
+          "shortName": "GE",
+          "showName": "格鲁吉亚 +995",
+          "tel": "995"
+      },
+      {
+          "en": "FrenchGuiana",
+          "flag": "../../static/flag/gf.png",
+          "name": "法属圭亚那",
+          "shortName": "GF",
+          "showName": "法属圭亚那 +594",
+          "tel": "594"
+      },
+      {
+          "en": "Ghana",
+          "flag": "../../static/flag/gh.png",
+          "name": "加纳",
+          "shortName": "GH",
+          "showName": "加纳 +233",
+          "tel": "233"
+      },
+      {
+          "en": "Gibraltar",
+          "flag": "../../static/flag/gi.png",
+          "name": "直布罗陀",
+          "shortName": "GI",
+          "showName": "直布罗陀 +350",
+          "tel": "350"
+      },
+      {
+          "en": "Gambia",
+          "flag": "../../static/flag/gm.png",
+          "name": "冈比亚",
+          "shortName": "GM",
+          "showName": "冈比亚 +220",
+          "tel": "220"
+      },
+      {
+          "en": "Guinea",
+          "flag": "../../static/flag/gn.png",
+          "name": "几内亚",
+          "shortName": "GN",
+          "showName": "几内亚 +224",
+          "tel": "224"
+      },
+      {
+          "en": "Greece",
+          "flag": "../../static/flag/gr.png",
+          "name": "希腊",
+          "shortName": "GR",
+          "showName": "希腊 +30",
+          "tel": "30"
+      },
+      {
+          "en": "Guatemala",
+          "flag": "../../static/flag/gt.png",
+          "name": "危地马拉",
+          "shortName": "GT",
+          "showName": "危地马拉 +502",
+          "tel": "502"
+      },
+      {
+          "en": "Guam",
+          "flag": "../../static/flag/gu.png",
+          "name": "关岛",
+          "shortName": "GU",
+          "showName": "关岛 +1671",
+          "tel": "1671"
+      },
+      {
+          "en": "Guyana",
+          "flag": "../../static/flag/gy.png",
+          "name": "圭亚那",
+          "shortName": "GY",
+          "showName": "圭亚那 +592",
+          "tel": "592"
+      },
+      {
+          "en": "Honduras",
+          "flag": "../../static/flag/hn.png",
+          "name": "洪都拉斯",
+          "shortName": "HN",
+          "showName": "洪都拉斯 +504",
+          "tel": "504"
+      },
+      {
+          "en": "Haiti",
+          "flag": "../../static/flag/ht.png",
+          "name": "海地",
+          "shortName": "HT",
+          "showName": "海地 +509",
+          "tel": "509"
+      },
+      {
+          "en": "Hungary",
+          "flag": "../../static/flag/hu.png",
+          "name": "匈牙利",
+          "shortName": "HU",
+          "showName": "匈牙利 +36",
+          "tel": "36"
+      },
+      {
+          "en": "Indonesia",
+          "flag": "../../static/flag/id.png",
+          "name": "印度尼西亚",
+          "shortName": "ID",
+          "showName": "印度尼西亚 +62",
+          "tel": "62"
+      },
+      {
+          "en": "Ireland",
+          "flag": "../../static/flag/ie.png",
+          "name": "爱尔兰",
+          "shortName": "IE",
+          "showName": "爱尔兰 +353",
+          "tel": "353"
+      },
+      {
+          "en": "Israel",
+          "flag": "../../static/flag/il.png",
+          "name": "以色列",
+          "shortName": "IL",
+          "showName": "以色列 +972",
+          "tel": "972"
+      },
+      {
+          "en": "India",
+          "flag": "../../static/flag/in.png",
+          "name": "印度",
+          "shortName": "IN",
+          "showName": "印度 +91",
+          "tel": "91"
+      },
+      {
+          "en": "Iraq",
+          "flag": "../../static/flag/iq.png",
+          "name": "伊拉克",
+          "shortName": "IQ",
+          "showName": "伊拉克 +964",
+          "tel": "964"
+      },
+      {
+          "en": "Iran",
+          "flag": "../../static/flag/ir.png",
+          "name": "伊朗",
+          "shortName": "IR",
+          "showName": "伊朗 +98",
+          "tel": "98"
+      },
+      {
+          "en": "Iceland",
+          "flag": "../../static/flag/is.png",
+          "name": "冰岛",
+          "shortName": "IS",
+          "showName": "冰岛 +354",
+          "tel": "354"
+      },
+      {
+          "en": "Italy",
+          "flag": "../../static/flag/it.png",
+          "name": "意大利",
+          "shortName": "IT",
+          "showName": "意大利 +39",
+          "tel": "39"
+      },
+      {
+          "en": "IvoryCoast",
+          "flag": "../../static/flag/.png",
+          "name": "科特迪瓦",
+          "shortName": "",
+          "showName": "科特迪瓦 +225",
+          "tel": "225"
+      },
+      {
+          "en": "Jamaica",
+          "flag": "../../static/flag/jm.png",
+          "name": "牙买加",
+          "shortName": "JM",
+          "showName": "牙买加 +1876",
+          "tel": "1876"
+      },
+      {
+          "en": "Jordan",
+          "flag": "../../static/flag/jo.png",
+          "name": "约旦",
+          "shortName": "JO",
+          "showName": "约旦 +962",
+          "tel": "962"
+      },
+      {
+          "en": "Japan",
+          "flag": "../../static/flag/jp.png",
+          "name": "日本",
+          "shortName": "JP",
+          "showName": "日本 +81",
+          "tel": "81"
+      },
+      {
+          "en": "Kenya",
+          "flag": "../../static/flag/ke.png",
+          "name": "肯尼亚",
+          "shortName": "KE",
+          "showName": "肯尼亚 +254",
+          "tel": "254"
+      },
+      {
+          "en": "Kyrgyzstan",
+          "flag": "../../static/flag/kg.png",
+          "name": "吉尔吉斯坦",
+          "shortName": "KG",
+          "showName": "吉尔吉斯坦 +331",
+          "tel": "331"
+      },
+      {
+          "en": "Kampuchea(Cambodia)",
+          "flag": "../../static/flag/kh.png",
+          "name": "柬埔寨",
+          "shortName": "KH",
+          "showName": "柬埔寨 +855",
+          "tel": "855"
+      },
+      {
+          "en": "NorthKorea",
+          "flag": "../../static/flag/kp.png",
+          "name": "朝鲜",
+          "shortName": "KP",
+          "showName": "朝鲜 +850",
+          "tel": "850"
+      },
+      {
+          "en": "Korea",
+          "flag": "../../static/flag/kr.png",
+          "name": "韩国",
+          "shortName": "KR",
+          "showName": "韩国 +82",
+          "tel": "82"
+      },
+      {
+          "en": "RepublicofIvoryCoast",
+          "flag": "../../static/flag/kt.png",
+          "name": "科特迪瓦共和国",
+          "shortName": "KT",
+          "showName": "科特迪瓦共和国 +225",
+          "tel": "225"
+      },
+      {
+          "en": "Kuwait",
+          "flag": "../../static/flag/kw.png",
+          "name": "科威特",
+          "shortName": "KW",
+          "showName": "科威特 +965",
+          "tel": "965"
+      },
+      {
+          "en": "Kazakstan",
+          "flag": "../../static/flag/kz.png",
+          "name": "哈萨克斯坦",
+          "shortName": "KZ",
+          "showName": "哈萨克斯坦 +327",
+          "tel": "327"
+      },
+      {
+          "en": "Laos",
+          "flag": "../../static/flag/la.png",
+          "name": "老挝",
+          "shortName": "LA",
+          "showName": "老挝 +856",
+          "tel": "856"
+      },
+      {
+          "en": "Lebanon",
+          "flag": "../../static/flag/lb.png",
+          "name": "黎巴嫩",
+          "shortName": "LB",
+          "showName": "黎巴嫩 +961",
+          "tel": "961"
+      },
+      {
+          "en": "St.Lucia",
+          "flag": "../../static/flag/lc.png",
+          "name": "圣卢西亚",
+          "shortName": "LC",
+          "showName": "圣卢西亚 +1758",
+          "tel": "1758"
+      },
+      {
+          "en": "Liechtenstein",
+          "flag": "../../static/flag/li.png",
+          "name": "列支敦士登",
+          "shortName": "LI",
+          "showName": "列支敦士登 +423",
+          "tel": "423"
+      },
+      {
+          "en": "SriLanka",
+          "flag": "../../static/flag/lk.png",
+          "name": "斯里兰卡",
+          "shortName": "LK",
+          "showName": "斯里兰卡 +94",
+          "tel": "94"
+      },
+      {
+          "en": "Liberia",
+          "flag": "../../static/flag/lr.png",
+          "name": "利比里亚",
+          "shortName": "LR",
+          "showName": "利比里亚 +231",
+          "tel": "231"
+      },
+      {
+          "en": "Lesotho",
+          "flag": "../../static/flag/ls.png",
+          "name": "莱索托",
+          "shortName": "LS",
+          "showName": "莱索托 +266",
+          "tel": "266"
+      },
+      {
+          "en": "Lithuania",
+          "flag": "../../static/flag/lt.png",
+          "name": "立陶宛",
+          "shortName": "LT",
+          "showName": "立陶宛 +370",
+          "tel": "370"
+      },
+      {
+          "en": "Luxembourg",
+          "flag": "../../static/flag/lu.png",
+          "name": "卢森堡",
+          "shortName": "LU",
+          "showName": "卢森堡 +352",
+          "tel": "352"
+      },
+      {
+          "en": "Latvia",
+          "flag": "../../static/flag/lv.png",
+          "name": "拉脱维亚",
+          "shortName": "LV",
+          "showName": "拉脱维亚 +371",
+          "tel": "371"
+      },
+      {
+          "en": "Libya",
+          "flag": "../../static/flag/ly.png",
+          "name": "利比亚",
+          "shortName": "LY",
+          "showName": "利比亚 +218",
+          "tel": "218"
+      },
+      {
+          "en": "Morocco",
+          "flag": "../../static/flag/ma.png",
+          "name": "摩洛哥",
+          "shortName": "MA",
+          "showName": "摩洛哥 +212",
+          "tel": "212"
+      },
+      {
+          "en": "Monaco",
+          "flag": "../../static/flag/mc.png",
+          "name": "摩纳哥",
+          "shortName": "MC",
+          "showName": "摩纳哥 +377",
+          "tel": "377"
+      },
+      {
+          "en": "Moldova,Republicof",
+          "flag": "../../static/flag/md.png",
+          "name": "摩尔多瓦",
+          "shortName": "MD",
+          "showName": "摩尔多瓦 +373",
+          "tel": "373"
+      },
+      {
+          "en": "Madagascar",
+          "flag": "../../static/flag/mg.png",
+          "name": "马达加斯加",
+          "shortName": "MG",
+          "showName": "马达加斯加 +261",
+          "tel": "261"
+      },
+      {
+          "en": "Mali",
+          "flag": "../../static/flag/ml.png",
+          "name": "马里",
+          "shortName": "ML",
+          "showName": "马里 +223",
+          "tel": "223"
+      },
+      {
+          "en": "Burma",
+          "flag": "../../static/flag/mm.png",
+          "name": "缅甸",
+          "shortName": "MM",
+          "showName": "缅甸 +95",
+          "tel": "95"
+      },
+      {
+          "en": "Mongolia",
+          "flag": "../../static/flag/mn.png",
+          "name": "蒙古",
+          "shortName": "MN",
+          "showName": "蒙古 +976",
+          "tel": "976"
+      },
+      {
+          "en": "Macao",
+          "flag": "../../static/flag/mo.png",
+          "name": "澳门（中国）",
+          "shortName": "MO",
+          "showName": "澳门（中国） +853",
+          "tel": "853"
+      },
+      {
+          "en": "MontserratIs",
+          "flag": "../../static/flag/ms.png",
+          "name": "蒙特塞拉特岛",
+          "shortName": "MS",
+          "showName": "蒙特塞拉特岛 +1664",
+          "tel": "1664"
+      },
+      {
+          "en": "Malta",
+          "flag": "../../static/flag/mt.png",
+          "name": "马耳他",
+          "shortName": "MT",
+          "showName": "马耳他 +356",
+          "tel": "356"
+      },
+      {
+          "en": "MarianaIs",
+          "flag": "../../static/flag/.png",
+          "name": "马里亚那群岛",
+          "shortName": "",
+          "showName": "马里亚那群岛 +1670",
+          "tel": "1670"
+      },
+      {
+          "en": "Martinique",
+          "flag": "../../static/flag/.png",
+          "name": "马提尼克",
+          "shortName": "",
+          "showName": "马提尼克 +596",
+          "tel": "596"
+      },
+      {
+          "en": "Mauritius",
+          "flag": "../../static/flag/mu.png",
+          "name": "毛里求斯",
+          "shortName": "MU",
+          "showName": "毛里求斯 +230",
+          "tel": "230"
+      },
+      {
+          "en": "Maldives",
+          "flag": "../../static/flag/mv.png",
+          "name": "马尔代夫",
+          "shortName": "MV",
+          "showName": "马尔代夫 +960",
+          "tel": "960"
+      },
+      {
+          "en": "Malawi",
+          "flag": "../../static/flag/mw.png",
+          "name": "马拉维",
+          "shortName": "MW",
+          "showName": "马拉维 +265",
+          "tel": "265"
+      },
+      {
+          "en": "Mexico",
+          "flag": "../../static/flag/mx.png",
+          "name": "墨西哥",
+          "shortName": "MX",
+          "showName": "墨西哥 +52",
+          "tel": "52"
+      },
+      {
+          "en": "Malaysia",
+          "flag": "../../static/flag/my.png",
+          "name": "马来西亚",
+          "shortName": "MY",
+          "showName": "马来西亚 +60",
+          "tel": "60"
+      },
+      {
+          "en": "Mozambique",
+          "flag": "../../static/flag/mz.png",
+          "name": "莫桑比克",
+          "shortName": "MZ",
+          "showName": "莫桑比克 +258",
+          "tel": "258"
+      },
+      {
+          "en": "Namibia",
+          "flag": "../../static/flag/na.png",
+          "name": "纳米比亚",
+          "shortName": "NA",
+          "showName": "纳米比亚 +264",
+          "tel": "264"
+      },
+      {
+          "en": "Niger",
+          "flag": "../../static/flag/ne.png",
+          "name": "尼日尔",
+          "shortName": "NE",
+          "showName": "尼日尔 +977",
+          "tel": "977"
+      },
+      {
+          "en": "Nigeria",
+          "flag": "../../static/flag/ng.png",
+          "name": "尼日利亚",
+          "shortName": "NG",
+          "showName": "尼日利亚 +234",
+          "tel": "234"
+      },
+      {
+          "en": "Nicaragua",
+          "flag": "../../static/flag/ni.png",
+          "name": "尼加拉瓜",
+          "shortName": "NI",
+          "showName": "尼加拉瓜 +505",
+          "tel": "505"
+      },
+      {
+          "en": "Netherlands",
+          "flag": "../../static/flag/nl.png",
+          "name": "荷兰",
+          "shortName": "NL",
+          "showName": "荷兰 +31",
+          "tel": "31"
+      },
+      {
+          "en": "Norway",
+          "flag": "../../static/flag/no.png",
+          "name": "挪威",
+          "shortName": "NO",
+          "showName": "挪威 +47",
+          "tel": "47"
+      },
+      {
+          "en": "Nepal",
+          "flag": "../../static/flag/np.png",
+          "name": "尼泊尔",
+          "shortName": "NP",
+          "showName": "尼泊尔 +977",
+          "tel": "977"
+      },
+      {
+          "en": "Nauru",
+          "flag": "../../static/flag/nr.png",
+          "name": "瑙鲁",
+          "shortName": "NR",
+          "showName": "瑙鲁 +674",
+          "tel": "674"
+      },
+      {
+          "en": "NewZealand",
+          "flag": "../../static/flag/nz.png",
+          "name": "新西兰",
+          "shortName": "NZ",
+          "showName": "新西兰 +64",
+          "tel": "64"
+      },
+      {
+          "en": "Oman",
+          "flag": "../../static/flag/om.png",
+          "name": "阿曼",
+          "shortName": "OM",
+          "showName": "阿曼 +968",
+          "tel": "968"
+      },
+      {
+          "en": "Panama",
+          "flag": "../../static/flag/pa.png",
+          "name": "巴拿马",
+          "shortName": "PA",
+          "showName": "巴拿马 +507",
+          "tel": "507"
+      },
+      {
+          "en": "Peru",
+          "flag": "../../static/flag/pe.png",
+          "name": "秘鲁",
+          "shortName": "PE",
+          "showName": "秘鲁 +51",
+          "tel": "51"
+      },
+      {
+          "en": "FrenchPolynesia",
+          "flag": "../../static/flag/pf.png",
+          "name": "法属玻利尼西亚",
+          "shortName": "PF",
+          "showName": "法属玻利尼西亚 +689",
+          "tel": "689"
+      },
+      {
+          "en": "PapuaNewCuinea",
+          "flag": "../../static/flag/pg.png",
+          "name": "巴布亚新几内亚",
+          "shortName": "PG",
+          "showName": "巴布亚新几内亚 +675",
+          "tel": "675"
+      },
+      {
+          "en": "Philippines",
+          "flag": "../../static/flag/ph.png",
+          "name": "菲律宾",
+          "shortName": "PH",
+          "showName": "菲律宾 +63",
+          "tel": "63"
+      },
+      {
+          "en": "Pakistan",
+          "flag": "../../static/flag/pk.png",
+          "name": "巴基斯坦",
+          "shortName": "PK",
+          "showName": "巴基斯坦 +92",
+          "tel": "92"
+      },
+      {
+          "en": "Poland",
+          "flag": "../../static/flag/pl.png",
+          "name": "波兰",
+          "shortName": "PL",
+          "showName": "波兰 +48",
+          "tel": "48"
+      },
+      {
+          "en": "PuertoRico",
+          "flag": "../../static/flag/pr.png",
+          "name": "波多黎各",
+          "shortName": "PR",
+          "showName": "波多黎各 +1787",
+          "tel": "1787"
+      },
+      {
+          "en": "Portugal",
+          "flag": "../../static/flag/pt.png",
+          "name": "葡萄牙",
+          "shortName": "PT",
+          "showName": "葡萄牙 +351",
+          "tel": "351"
+      },
+      {
+          "en": "Paraguay",
+          "flag": "../../static/flag/py.png",
+          "name": "巴拉圭",
+          "shortName": "PY",
+          "showName": "巴拉圭 +595",
+          "tel": "595"
+      },
+      {
+          "en": "Qatar",
+          "flag": "../../static/flag/qa.png",
+          "name": "卡塔尔",
+          "shortName": "QA",
+          "showName": "卡塔尔 +974",
+          "tel": "974"
+      },
+      {
+          "en": "Reunion",
+          "flag": "../../static/flag/.png",
+          "name": "留尼旺",
+          "shortName": "",
+          "showName": "留尼旺 +262",
+          "tel": "262"
+      },
+      {
+          "en": "Romania",
+          "flag": "../../static/flag/ro.png",
+          "name": "罗马尼亚",
+          "shortName": "RO",
+          "showName": "罗马尼亚 +40",
+          "tel": "40"
+      },
+      {
+          "en": "Russia",
+          "flag": "../../static/flag/ru.png",
+          "name": "俄罗斯",
+          "shortName": "RU",
+          "showName": "俄罗斯 +7",
+          "tel": "7"
+      },
+      {
+          "en": "SaudiArabia",
+          "flag": "../../static/flag/sa.png",
+          "name": "沙特阿拉伯",
+          "shortName": "SA",
+          "showName": "沙特阿拉伯 +966",
+          "tel": "966"
+      },
+      {
+          "en": "SolomonIs",
+          "flag": "../../static/flag/sb.png",
+          "name": "所罗门群岛",
+          "shortName": "SB",
+          "showName": "所罗门群岛 +677",
+          "tel": "677"
+      },
+      {
+          "en": "Seychelles",
+          "flag": "../../static/flag/sc.png",
+          "name": "塞舌尔",
+          "shortName": "SC",
+          "showName": "塞舌尔 +248",
+          "tel": "248"
+      },
+      {
+          "en": "Sudan",
+          "flag": "../../static/flag/sd.png",
+          "name": "苏丹",
+          "shortName": "SD",
+          "showName": "苏丹 +249",
+          "tel": "249"
+      },
+      {
+          "en": "Sweden",
+          "flag": "../../static/flag/se.png",
+          "name": "瑞典",
+          "shortName": "SE",
+          "showName": "瑞典 +46",
+          "tel": "46"
+      },
+      {
+          "en": "Singapore",
+          "flag": "../../static/flag/sg.png",
+          "name": "新加坡",
+          "shortName": "SG",
+          "showName": "新加坡 +65",
+          "tel": "65"
+      },
+      {
+          "en": "Slovenia",
+          "flag": "../../static/flag/si.png",
+          "name": "斯洛文尼亚",
+          "shortName": "SI",
+          "showName": "斯洛文尼亚 +386",
+          "tel": "386"
+      },
+      {
+          "en": "Slovakia",
+          "flag": "../../static/flag/sk.png",
+          "name": "斯洛伐克",
+          "shortName": "SK",
+          "showName": "斯洛伐克 +421",
+          "tel": "421"
+      },
+      {
+          "en": "SierraLeone",
+          "flag": "../../static/flag/sl.png",
+          "name": "塞拉利昂",
+          "shortName": "SL",
+          "showName": "塞拉利昂 +232",
+          "tel": "232"
+      },
+      {
+          "en": "SanMarino",
+          "flag": "../../static/flag/sm.png",
+          "name": "圣马力诺",
+          "shortName": "SM",
+          "showName": "圣马力诺 +378",
+          "tel": "378"
+      },
+      {
+          "en": "SamoaEastern",
+          "flag": "../../static/flag/as.png",
+          "name": "东萨摩亚(美)",
+          "shortName": "AS",
+          "showName": "东萨摩亚(美) +684",
+          "tel": "684"
+      },
+      {
+          "en": "SanMarino",
+          "flag": "../../static/flag/ws.png",
+          "name": "西萨摩亚",
+          "shortName": "WS",
+          "showName": "西萨摩亚 +685",
+          "tel": "685"
+      },
+      {
+          "en": "Senegal",
+          "flag": "../../static/flag/sn.png",
+          "name": "塞内加尔",
+          "shortName": "SN",
+          "showName": "塞内加尔 +221",
+          "tel": "221"
+      },
+      {
+          "en": "Somali",
+          "flag": "../../static/flag/so.png",
+          "name": "索马里",
+          "shortName": "SO",
+          "showName": "索马里 +252",
+          "tel": "252"
+      },
+      {
+          "en": "Suriname",
+          "flag": "../../static/flag/sr.png",
+          "name": "苏里南",
+          "shortName": "SR",
+          "showName": "苏里南 +597",
+          "tel": "597"
+      },
+      {
+          "en": "SaoTomeandPrincipe",
+          "flag": "../../static/flag/st.png",
+          "name": "圣多美和普林西比",
+          "shortName": "ST",
+          "showName": "圣多美和普林西比 +239",
+          "tel": "239"
+      },
+      {
+          "en": "EISalvador",
+          "flag": "../../static/flag/sv.png",
+          "name": "萨尔瓦多",
+          "shortName": "SV",
+          "showName": "萨尔瓦多 +503",
+          "tel": "503"
+      },
+      {
+          "en": "Syria",
+          "flag": "../../static/flag/sy.png",
+          "name": "叙利亚",
+          "shortName": "SY",
+          "showName": "叙利亚 +963",
+          "tel": "963"
+      },
+      {
+          "en": "Swaziland",
+          "flag": "../../static/flag/sz.png",
+          "name": "斯威士兰",
+          "shortName": "SZ",
+          "showName": "斯威士兰 +268",
+          "tel": "268"
+      },
+      {
+          "en": "Chad",
+          "flag": "../../static/flag/td.png",
+          "name": "乍得",
+          "shortName": "TD",
+          "showName": "乍得 +235",
+          "tel": "235"
+      },
+      {
+          "en": "Togo",
+          "flag": "../../static/flag/tg.png",
+          "name": "多哥",
+          "shortName": "TG",
+          "showName": "多哥 +228",
+          "tel": "228"
+      },
+      {
+          "en": "Thailand",
+          "flag": "../../static/flag/th.png",
+          "name": "泰国",
+          "shortName": "TH",
+          "showName": "泰国 +66",
+          "tel": "66"
+      },
+      {
+          "en": "Tajikstan",
+          "flag": "../../static/flag/tj.png",
+          "name": "塔吉克斯坦",
+          "shortName": "TJ",
+          "showName": "塔吉克斯坦 +992",
+          "tel": "992"
+      },
+      {
+          "en": "Turkmenistan",
+          "flag": "../../static/flag/tm.png",
+          "name": "土库曼斯坦",
+          "shortName": "TM",
+          "showName": "土库曼斯坦 +993",
+          "tel": "993"
+      },
+      {
+          "en": "Tunisia",
+          "flag": "../../static/flag/tn.png",
+          "name": "突尼斯",
+          "shortName": "TN",
+          "showName": "突尼斯 +216",
+          "tel": "216"
+      },
+      {
+          "en": "Tonga",
+          "flag": "../../static/flag/to.png",
+          "name": "汤加",
+          "shortName": "TO",
+          "showName": "汤加 +676",
+          "tel": "676"
+      },
+      {
+          "en": "Turkey",
+          "flag": "../../static/flag/tr.png",
+          "name": "土耳其",
+          "shortName": "TR",
+          "showName": "土耳其 +90",
+          "tel": "90"
+      },
+      {
+          "en": "TrinidadandTobago",
+          "flag": "../../static/flag/tt.png",
+          "name": "特立尼达和多巴哥",
+          "shortName": "TT",
+          "showName": "特立尼达和多巴哥 +1809",
+          "tel": "1809"
+      },
+      {
+          "en": "Tanzania",
+          "flag": "../../static/flag/tz.png",
+          "name": "坦桑尼亚",
+          "shortName": "TZ",
+          "showName": "坦桑尼亚 +255",
+          "tel": "255"
+      },
+      {
+          "en": "Ukraine",
+          "flag": "../../static/flag/ua.png",
+          "name": "乌克兰",
+          "shortName": "UA",
+          "showName": "乌克兰 +380",
+          "tel": "380"
+      },
+      {
+          "en": "Uganda",
+          "flag": "../../static/flag/ug.png",
+          "name": "乌干达",
+          "shortName": "UG",
+          "showName": "乌干达 +256",
+          "tel": "256"
+      },
+      {
+          "en": "UnitedStatesofAmerica",
+          "flag": "../../static/flag/us.png",
+          "name": "美国",
+          "shortName": "US",
+          "showName": "美国 +1",
+          "tel": "1"
+      },
+      {
+          "en": "Uruguay",
+          "flag": "../../static/flag/uy.png",
+          "name": "乌拉圭",
+          "shortName": "UY",
+          "showName": "乌拉圭 +598",
+          "tel": "598"
+      },
+      {
+          "en": "Uzbekistan",
+          "flag": "../../static/flag/uz.png",
+          "name": "乌兹别克斯坦",
+          "shortName": "UZ",
+          "showName": "乌兹别克斯坦 +233",
+          "tel": "233"
+      },
+      {
+          "en": "SaintVincent",
+          "flag": "../../static/flag/vc.png",
+          "name": "圣文森特岛",
+          "shortName": "VC",
+          "showName": "圣文森特岛 +1784",
+          "tel": "1784"
+      },
+      {
+          "en": "Venezuela",
+          "flag": "../../static/flag/ve.png",
+          "name": "委内瑞拉",
+          "shortName": "VE",
+          "showName": "委内瑞拉 +58",
+          "tel": "58"
+      },
+      {
+          "en": "Vietnam",
+          "flag": "../../static/flag/vn.png",
+          "name": "越南",
+          "shortName": "VN",
+          "showName": "越南 +84",
+          "tel": "84"
+      },
+      {
+          "en": "Yemen",
+          "flag": "../../static/flag/ye.png",
+          "name": "也门",
+          "shortName": "YE",
+          "showName": "也门 +967",
+          "tel": "967"
+      },
+      {
+          "en": "Yugoslavia",
+          "flag": "../../static/flag/yu.png",
+          "name": "南斯拉夫",
+          "shortName": "YU",
+          "showName": "南斯拉夫 +381",
+          "tel": "381"
+      },
+      {
+          "en": "SouthAfrica",
+          "flag": "../../static/flag/za.png",
+          "name": "南非",
+          "shortName": "ZA",
+          "showName": "南非 +27",
+          "tel": "27"
+      },
+      {
+          "en": "Zambia",
+          "flag": "../../static/flag/zm.png",
+          "name": "赞比亚",
+          "shortName": "ZM",
+          "showName": "赞比亚 +260",
+          "tel": "260"
+      },
+      {
+          "en": "Zaire",
+          "flag": "../../static/flag/zr.png",
+          "name": "扎伊尔",
+          "shortName": "ZR",
+          "showName": "扎伊尔 +243",
+          "tel": "243"
+      },
+      {
+          "en": "Zimbabwe",
+          "flag": "../../static/flag/zw.png",
+          "name": "津巴布韦",
+          "shortName": "ZW",
+          "showName": "津巴布韦 +263",
+          "tel": "263"
+      }
+  ]
+}

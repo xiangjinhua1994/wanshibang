@@ -1,0 +1,4 @@
+let andoridModule = uni.requireNativePlugin('Chen-HelloWorld');
+andoridModule.startUnionPay(result.data.payment,(e)=>{
+							console.log(' reuslt:',e);
+						});
