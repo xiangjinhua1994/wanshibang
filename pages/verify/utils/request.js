@@ -1,8 +1,8 @@
 
 // let baseUrl = "https://captcha.anji-plus.com/captcha-api"
-let baseUrl = "https://app.nanheshop.com/api/front"
+// let baseUrl = "https://app.nanheshop.com/api/front"
 // let baseUrl = 'https://app-test.yiweiyi.cn';//测试环境请求地址
-//  let baseUrl = "https://app-test.yiweiyi.cn/api/front"
+ let baseUrl = "https://app-test.yiweiyi.cn/api/front"
 
 
 export const  myRequest = async (option={})=>{

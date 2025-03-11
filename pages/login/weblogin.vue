@@ -1,13 +1,13 @@
 <template>
   <view class="web-login">
     <view class="login" txt="登录" v-if="pageType === 1">
-      <view class="head_top" :style="'height:' + topBarTop() + 'px;'"></view>
-      <headTitle :classLeftType="0">
-        <view class="right-css" @click="pageSwitch(2)">注册账号</view>
+      <view class="head_top head_topClass" :style="'height:' + topBarTop() + 'px;'"></view>
+      <headTitle :classLeftType="0" bg="#262626" height="320">
+        <view @click="pageSwitch(2)" style="color:#fff">登录</view>
       </headTitle>
       <view class="login-logo">
-        <view class="login-logo-img"><image src="/static/nh.png" mode=""/> </view>
-        <!-- <view class="login-logo-text ">逛南合国际 买东南亚好货</view> -->
+        <!-- <view class="login-logo-img"><image src="/static/nh.png" mode=""/> </view> -->
+        <view class="login-logo-text " style="color:#FF6B4A;font-size: 48rpx;">欢迎登录</view>
       </view>
       <view class="pas-login" v-if="loginType === 2" txt="密码">
         <view class="from-item">
@@ -37,21 +37,33 @@
       </view>
       <view class="pas-login" v-else-if="loginType === 1" txt="验证码">
         <view class="from-item">
-          <picker @change="loginPickerChange" :value="index" :range="areaList" range-key="showName" mode=selector>
+          <!-- <picker @change="loginPickerChange" :value="index" :range="areaList" range-key="showName" mode=selector>
             <view style="font-size: 28rpx;font-weight:bold;display:flex;" class="uni-input">+{{ areaList[index].tel }} 
               <image class="imgSize" src="/static/polygon.png" mode="" />
             </view>
-          </picker>
-          <input type="text" class="search-input" placeholder-class="f24 gray9" placeholder="输入手机号码"
+          </picker> -->
+          <input type="text" class="search-input" placeholder-class="f24 gray9" placeholder="请输入手机号/邮箱/用户名"
             v-model="loginSmS.mobile" />
         </view>
         <view class="from-item">
-          <input type="text" class="search-input" placeholder-class="f24 gray9" placeholder="请输入验证码"
+          <input type="text" class="search-input" placeholder-class="f24 gray9" placeholder="请输入密码"
             v-model="loginSmS.code" maxlength="6"  />
-          <text @click="sendCodeVery">{{ send_btn_txt }}</text>
+          <!-- <text @click="sendCodeVery">{{ send_btn_txt }}</text> -->
 
         </view>
-        <view class="ui-btn btn-black btn-more" @click="smsLogin">
+          <view style="display:flex;justify-content: space-between;"> 
+            <view class="remember-box1" @click="remeberEmail">
+              <image src="/static/home/unselected.png" mode="" v-if="loginEmailPas.remember" />
+              <image src="/static/home/select.png" mode="" v-else />
+              <text>记住密码</text>
+            </view>
+            <view class="remember-box1" @click="remeberEmail">
+              <text style="color:#FF6B4A">忘记密码?</text>
+              <!-- <image src="/static/home/unselected.png" mode="" v-if="loginEmailPas.remember" />
+              <image src="/static/home/select.png" mode="" v-else /> -->
+            </view>
+          </view>
+        <view style="margin-top:48rpx; border:none; background-color: #FF6B4A;color:#fff;font-size: 28rpx;height:48rpx;line-height: 48rpx; border-radius: 24rpx;" class="ui-btn btn-more" @click="smsLogin">
           登录
         </view>
       </view>
@@ -114,38 +126,47 @@
         </view>
       </view>
       <view class="otherWay">
-        <text class="borderP mr16"></text>
-        其他方式登录
-        <text class="borderP ml16"></text>
+        <!-- <text class="borderP mr16"></text> -->
+        其他登录方式
+        <!-- <text class="borderP ml16"></text> -->
       </view>
       <view style="display: flex;align-items: center;justify-content: center;">
 
       <view class="login-btm" @click="login_type(1)" v-show="showBtm1">
         <view>
-          <image src="/static/home/login/code.png" mode="" />
+          <image src="/static/home/wx.png" mode="" />
           <view>手机验证码</view>
         </view>
       </view>
       <view class="login-btm" @click="login_type(2)" v-show="showBtm2">
-        <view>
-          <image src="/static/home/login/mobilePassword.png" mode="" />
-          <view>手机密码</view>
+        <view >
+          <view style="background-color: #07C160;border-radius: 50%;width: 96rpx;height:96rpx;line-height: 96rpx;justify-content: center;align-items: center;"><image style="width: 44rpx;height: 40rpx;margin-top: 24rpx;" src="/static/home/wx.png" mode="" /></view> 
+          <!-- <view>手机密码</view> -->
         </view>
       </view>
       <view class="login-btm" @click="login_type(3)" v-show="showBtm3">
         <view>
-          <image src="/static/home/login/password.png" mode="" />
-          <view>邮箱密码</view>
+          <!-- <image src="/static/home/login/password.png" mode="" /> -->
+          <view style="background-color: #12B7F5;border-radius: 50%;width: 96rpx;height:96rpx;line-height: 96rpx;justify-content: center;align-items: center;"><image style="width: 28rpx;height: 40rpx;margin-top: 24rpx;" src="/static/home/mobile.png" mode="" /></view> 
+          <!-- <view>邮箱密码</view> -->
         </view>
       </view>
       <view class="login-btm" @click="login_type(4)" v-show="showBtm4">
         <view>
-          <image src="/static/home/login/emailCode.png" mode="" />
-          <view>邮箱验证码</view>
+          <!-- <image src="/static/home/login/emailCode.png" mode="" /> -->
+          <view style="background-color: #1677FF;border-radius: 50%;width: 96rpx;height:96rpx;line-height: 96rpx;justify-content: center;align-items: center;"><image style="width: 36rpx;height: 40rpx;margin-top: 24rpx;" src="/static/home/zhifubao.png" mode="" /></view> 
+          <!-- <view>邮箱验证码</view> -->
         </view>
       </view>
       </view>
-
+      <view @click="isRead = !isRead" class="xieyi-css2">
+        <!-- <view :class=" ? 'active agreement' : 'agreement'"></view> -->
+        
+        <text class="dominant" @click.stop="xieyi('service')">
+          还没有账号？</text>
+        <text style="color:#FF6B4A" class="dominant" @click.stop="xieyi('privacy')">
+          立即注册</text>
+      </view>
       <!-- <view class="login-btm" @click="login_type(1)" v-if="loginType === 2">
         <view>
           <image src="/static/home/login/code.png" mode="" />
@@ -160,13 +181,13 @@
       </view> -->
       <view @click="isRead = !isRead" class="xieyi-css">
         <!-- <view :class=" ? 'active agreement' : 'agreement'"></view> -->
-        <image src="/static/home/unselected.png" mode="" style="margin-right:10rpx" v-if="isRead" />
+        <!-- <image src="/static/home/unselected.png" mode="" style="margin-right:10rpx" v-if="isRead" />
         <image src="/static/home/select.png" mode=""  v-else style="margin-right:10rpx" />
         已阅读并同意
         <text class="dominant" @click.stop="xieyi('service')">
           《用户协议》</text>和
         <text class="dominant" @click.stop="xieyi('privacy')">
-          《隐私政策》</text>
+          《隐私政策》</text> -->
       </view>
     </view>
     <view class="login" txt="注册" v-else-if="pageType === 2">
@@ -1349,6 +1370,9 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/common/mixin.scss';
+.head_topClass{
+  height: 300rpx;
+}
 .otherWay{
   font-family: Hiragino Sans GB, Hiragino Sans GB;
   font-weight: normal;
@@ -1358,7 +1382,7 @@ export default {
   text-align: center;
   font-style: normal;
   text-transform: none;
-  margin-top: 80rpx;
+  margin-top: 0rpx;
 .borderP{
   display: inline-block;
   width: 128rpx;
@@ -1439,10 +1463,28 @@ export default {
       font-size: 24rpx;
     }
   }
+  .xieyi-css2 {
+    @include fl-center;
+    padding-top: 40rpx;
+    width: 750rpx;
+    bottom: 38rpx;
+
+    image {
+      @include area(24rpx, 24rpx);
+      margin-right: 20rpx;
+    }
+
+    .dominant {
+      color: #6B7280;
+      font-weight: normal;
+      font-size: 28rpx;
+    }
+  }
 }
 
 .login-logo {
-  padding: 80rpx;
+  padding-top: 284rpx;
+  padding-left: 80rpx;
   padding-bottom: 20rpx;
 
   .login-logo-img {
@@ -1478,7 +1520,7 @@ export default {
 }
 
 .pas-login {
-  padding: 56rpx 76rpx 154rpx 76rpx;
+  padding: 56rpx 76rpx 48rpx 76rpx;
 
   .from-item {
     margin-bottom: 40rpx;
@@ -1486,7 +1528,7 @@ export default {
     flex: 1;
     border: 1rpx #F7F8FA solid;
     background-color: #F7F8FA;
-    border-radius: 40rpx;
+    border-radius: 8rpx;
     padding: 20rpx;
 
     .search-input {
@@ -1515,6 +1557,20 @@ export default {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding-top: 20rpx;
+    right: 80rpx;
+
+    image {
+      width: 30rpx;
+      height: 30rpx;
+    }
+
+    text {
+      margin-left: 10rpx;
+    }
+  }
+  .remember-box1 {
+    // position: absolute;
     padding-top: 20rpx;
     right: 80rpx;
 

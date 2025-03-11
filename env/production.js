@@ -8,8 +8,8 @@ export default {
     // url: 'https://yuma-app-test.nnchat.com.cn',//--临时使用
     // url: 'https://amall-app-test.miaojiahui.cn',
     //正式环境请求地址
-    // url: 'https://app-test.yiweiyi.cn',
-        url: 'https://app.nanheshop.com',
+    url: 'https://app-test.yiweiyi.cn',
+        // url: 'https://app.nanheshop.com',
 
       // 测试环境请求地址
     // url:'http://192.168.0.5:8890',

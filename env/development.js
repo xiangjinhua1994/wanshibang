@@ -5,10 +5,10 @@
 // let url = 'http://192.168.0.9:8890';//测试环境请求地址
 
 
-// let url = 'https://app-test.yiweiyi.cn';//测试环境请求地址
+let url = 'https://app-test.yiweiyi.cn';//测试环境请求地址
 
 
-let url = 'https://app.nanheshop.com';//正式环境请求地址app.yiweiyi.cn
+// let url = 'https://app.nanheshop.com';//正式环境请求地址app.yiweiyi.cn
 
 
 
