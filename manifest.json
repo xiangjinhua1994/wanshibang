@@ -2,8 +2,8 @@
     "name" : "南合国际商城",
     "appid" : "__UNI__BCB5018",
     "description" : "南合国际商城",
-    "versionName" : "1.2.3",
-    "versionCode" : 123,
+    "versionName" : "1.2.4",
+    "versionCode" : 124,
     "transformPx" : false,
     "app-plus" : {
         "compatible" : {
